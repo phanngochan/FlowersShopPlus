@@ -1,0 +1,25 @@
+﻿.search {
+    margin: 100px 350px auto 350px;
+}
+
+    .search .searchBar input {
+        padding: .9rem 3.5rem;
+        border: 2px solid #999;
+        border-radius: 5rem;
+    }
+
+
+.products .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+    .products .box-container .box {
+        /* width: 300px; */
+        flex: 0 auto;
+        box-shadow: 0 .5rem 1.5rem rgba(0,0, 0, .1);
+        border-radius: .5rem;
+        border: .1rem solid rgba(0,0, 0, .1);
+        position: relative;
+    }
